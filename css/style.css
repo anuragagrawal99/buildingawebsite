@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+}
+
+.nav {
+  height: 50px;
+  background: orange;
+}
+
+.nav div {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  padding: 15px;
+  font-size: 20px;
+  color: white;
+}
+
+.nav ul {
+  position: absolute;
+  right: 5px;
+}
+
+.nav ul li {
+  display: inline-block;
+}
+
+.nav ul li a {
+  color: white;
+  padding: 5px;
+}
+
+.home {
+  background: url("images/background-image.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.home .text-container {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  color: orange;
+}
+
+.about-content {
+  margin: 150px auto 0 auto;
+  width: 500px;
+}
+
+.abouts {
+  text-align: center;
+  font-family: Roboto,sans-serif;
+  color: red;
+}
+
+.content{
+  text-align: justify;
+  font-family: Lato,sans-serif;
+  color: green;
+}
+
+.services {
+  margin: 80px auto 0 auto;
+  text-align: center;
+}
+
+.card-container {
+  margin-left: 115px;
+}
+
+.services-content .card-container ul {
+  padding: 0;
+}
+
+.services-content .card-container ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 20px;
+  width: 300px;
+  text-align: center;
+
+}
+
+.services-content .card-container ul li p {
+  text-align: justify;
+  font-family: Lato,sans-serif;
+  color: green;
+}
+
+.services {
+  font-family: Lato,sans-serif;
+  color: red;
+}
+
+.contact .contact-content {
+  margin: 80px auto 0 auto;
+  text-align: center;
+  font-family: Lato,sans-serif;
+}
+
+.address-holder {
+  text-align: center;
+  font-family: Lato,sans-serif;
+}
